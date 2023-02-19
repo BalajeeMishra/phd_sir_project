@@ -80,10 +80,10 @@
         <div class="breadcrumbs d-flex align-items-center" style="background-image: url('assets/img/industry.jpg');">
             <div class="container position-relative d-flex flex-column align-items-center">
 
-                <h2>Steel Pipes</h2>
+                <h2>Butt Weld Fittings</h2>
                 <ol>
                     <li><a href="index.html">Home</a></li>
-                    <li>Steel Pipes</li>
+                    <li>Butt Weld Fittings</li>
                 </ol>
 
             </div>
@@ -112,10 +112,7 @@
             </div>
             <div class="col-lg-8 col-md-6">
                 <div class="tab-content" id="nav-tabContent">
-
-                    <div class="tab-pane fade show active" id="list-home" role="tabpanel"
-                        aria-labelledby="list-home-list">
-
+                    <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
                         <div class="row" style="background-color:#EDEDED ;">
                             <div class="col-lg-4 col-md-6"
                                 style="width: fit-content; padding-right:0px;padding-left: 0px;">
@@ -230,18 +227,15 @@
 
                     </div>
 
-
-
-
-                    <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">...
-                    </div>
-                    <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
-                        ...</div>
-                    <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
-                        ...</div>
                 </div>
             </div>
         </div>
+
+
+
+
+
+
 
 
         <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
@@ -263,29 +257,11 @@
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
 
         <script>
-            // $('#myList a').on('click', function (e) {
-            //     e.preventDefault()
-            //     $(this).tab('show')
-            // })
-            // $('#mynav li a').on('click', function (e) {
-            //     e.preventDefault()
-            //     const selectedItem = e.currentTarget.innerHTML;
-            //     const selectElement = document.querySelectorAll(".list-group-item-action");
-            //     selectElement.forEach((e) => {
-            //         if (e.innerHTML == selectedItem) {
-            //             $(e).tab('show')
 
-            //         }
-            //     });
-            // });
-
-            const selectedItem = "Steel Pipes";
+            const selectedItem = "Butt Weld Fittings";
             const selectElement = document.querySelectorAll(".list-group-item-action");
-            console.log(selectElement, "selectElementttt");
-
             setTimeout(() => {
                 selectElement.forEach((e) => {
-                    console.log(e);
                     if (e.innerHTML == selectedItem) {
                         $(e).tab('show')
                     }
