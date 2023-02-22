@@ -34,6 +34,7 @@
 body {
   font-family: var(--font-default);
   color: var(--color-default);
+  margin-top: 30px;
 }
 
 a {
@@ -504,13 +505,23 @@ section {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
+
+.hero::before {
+  position: absolute;
+  content: "";
+  background: rgba(27, 47, 69, 0.6);
+  inset: 0;
+}
+
 .hero {
   width: 100%;
   min-height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  max-height: 80vh;
+  /* background: url("../img/hero-bg.jpg") top center; */
   background-size: cover;
   position: relative;
   padding: 120px 0;
+  /* background: rgba(27, 47, 69, 0.6); */
   z-index: 3;
 }
 
@@ -518,18 +529,11 @@ section {
   .hero:after {
     position: absolute;
     content: "";
-    width: 40%;
+    width: 100%;
     background: var(--color-secondary);
-    top: 0;
+    top: 0px;
     bottom: 0;
   }
-}
-
-.hero:before {
-  position: absolute;
-  content: "";
-  background: rgba(27, 47, 69, 0.6);
-  inset: 0;
 }
 
 @media (max-width: 1034px) {
