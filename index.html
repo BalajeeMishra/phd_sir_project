@@ -1,400 +1,373 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Steel products</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
 
-  <title>Steel products</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/favicon/apple-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/favicon/apple-icon-60x60.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/favicon/apple-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/favicon/apple-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/favicon/apple-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/favicon/apple-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/favicon/apple-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/favicon/apple-icon-152x152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-icon-180x180.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon/android-icon-192x192.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/favicon/favicon-96x96.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png" />
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+    <meta name="theme-color" content="#ffffff" />
 
-  <link rel="apple-touch-icon" sizes="57x57" href="assets/favicon/apple-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="assets/favicon/apple-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="assets/favicon/apple-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="assets/favicon/apple-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="assets/favicon/apple-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="assets/favicon/apple-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="assets/favicon/apple-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="assets/favicon/apple-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon/android-icon-192x192.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="assets/favicon/favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
-  <link rel="manifest" href="/manifest.json">
-  <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-  <meta name="theme-color" content="#ffffff">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
-    rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <!-- Template Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  </head>
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-
-<body class="page-index">
-
-  <!-- ======= Header ======= -->
-
-  <div class="bg-white sticky-top d-flex row" style="height: fit-content; min-width: 500px;">
-    <div class="col-lg-3 col-md-3  mx-5 ">
-      <a href="https://api.whatsapp.com/send?phone=7068147656"><i class="fa fa-whatsapp" style="color:red;  "></i></i>
-      </a>
-    </div>
-    <div class="col-lg-3 col-md-5  mx-5 ">
-      <a href="https://api.whatsapp.com/send?phone=7068147656"><i class="fa fa-envelope"></i>info@example.com</i>
-      </a>
-    </div>
-    <div class="col-lg-3 col-md-4  mx-5 ">
-      <a href="https://api.whatsapp.com/send?phone=7068147656"><i class="fa fa-phone"
-          style="color:rgb(10, 255, 10)"></i>7068147656</i>
-      </a>
-    </div>
-  </div>
-
-
-
-  <!-- <div style="height:30px ; background-color: black;"></div> -->
-  <!-- fixed-top -->
-  <header id="header" class="header d-flex align-items-center fixed-top">
-    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-
-      <div class="d-flex flex-column ">
-        <a href="index.html" class="logo d-flex align-items-center">
-          <img src="assets/img/logo.png" alt="">
-          <h1 class="d-flex align-items-center ">O & G OVERSEAS TRADING
-          </h1>
-        </a>
-
-        <p class="" style="
-        margin-left: 7em;
-        color: white;
-    ">Engineered For Excellence</p>
+  <body class="page-index">
+    <!-- ======= Header ======= -->
+    <!-- <div style="height:30px ; background-color: black;"></div> -->
+    <header id="header" class="header sticky-top d-flex flex-column align-items-center py-0">
+      <div class="row justify-content-md-between justify-content-start px-0 px-sm-3 align-items-center w-100" style="min-height: 30px; background-color: #303b48">
+        <div class="col col-md-2 col-lg-3 px-0 d-flex justify-content-center">
+          <a href="https://api.whatsapp.com/send?phone=7068147656" class="contact-item"
+            ><i class="fa fa-whatsapp me-2 fw-bolder" style="color: green"></i>7068147656</a
+          >
+        </div>
+        <div class="col col-md-8 col-lg-3 px-0 d-flex justify-content-center">
+          <a href="mail:info@example.com" class="contact-item"><i class="fa fa-envelope"></i>info@example.com</a>
+        </div>
+        <div class="col col-md-2 col-lg-3 px-0 d-flex justify-content-center">
+          <a href="tel:7068147656" class="contact-item"><i class="fa fa-phone me-2" style="color: #000"></i>7068147656</a>
+        </div>
       </div>
-      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
-      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
 
+      <div class="container-fluid d-flex align-items-center justify-content-between px-md-5 bg-dark">
+        <div class="d-flex flex-column pt-2">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <img src="assets/img/logo.png" alt="logo" />
+            <h1 class="d-flex align-items-center">O & G OVERSEAS TRADING</h1>
+          </a>
 
+          <p class="text-white" style="margin-left: 7em">Engineered For Excellence</p>
+        </div>
+        <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+        <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
 
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
 
+            <li class="dropdown">
+              <a href="#"><span>Products</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+              <ul>
+                <li><a href="/steel_product.html">Steel Pipes</a></li>
 
+                <li><a href="/butt_weld_fittings.html">Butt Weld Fittings</a></li>
+                <li><a href="#">Forged Fittings</a></li>
+                <li><a href="#">Flanges</a></li>
+                <li><a href="#">Valves</a></li>
+                <li><a href="#">Steel Plates & Structures</a></li>
+                <li><a href="#">Fasteners</a></li>
+                <li><a href="#">Gaskets</a></li>
+              </ul>
+            </li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </nav>
+        <!-- .navbar -->
+      </div>
+    </header>
 
+    <!-- End Header -->
 
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="services.html">Services</a></li>
-
-          <li class="dropdown"><a href="#"><span>Products</span> <i
-                class="bi bi-chevron-down dropdown-indicator"></i></a>
-            <ul>
-              <li><a href="/steel_product.html">Steel Pipes</a></li>
-
-              <li><a href="/butt_weld_fittings.html">Butt Weld Fittings</a></li>
-              <li><a href="#">Forged Fittings</a></li>
-              <li><a href="#">Flanges</a></li>
-              <li><a href="#">Valves</a></li>
-              <li><a href="#">Steel Plates & Structures</a></li>
-              <li><a href="#">Fasteners</a></li>
-              <li><a href="#">Gaskets</a></li>
-            </ul>
-          </li>
-          <li><a href="contact.html">Contact Us</a></li>
-        </ul>
-      </nav><!-- .navbar -->
-
-    </div>
-  </header>
-
-  <!-- End Header -->
-
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="hero d-flex align-items-center">
-    <div class="container">
-      <div class="row">
-        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 " style="margin-top: 50px ;">
-          <h4 data-aos="fade-up" style="color:white;">WHO WE ARE?</h4>
-          <blockquote data-aos="fade-up" data-aos-delay="100">
-            <p class="">O & G OVERSEAS TRADING is an ISO – 9001: 2015 certified company that is based in Mumbai
-              Maharashtra,
-              India, with over two decades of experience. We are well versed in the supply of a wide range of
-              high-standard products and equipment with international approval and certifications.
-            </p>
-          </blockquote>
-          <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
-            <a href="#why-us" class="btn-get-started">Get Started</a>
-            <a href="https://youtu.be/Kqb8hKd96-M" class="glightbox btn-watch-video d-flex align-items-center"><i
-                class="bi bi-play-circle"></i><span>Watch
-                Video</span></a>
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="hero d-flex">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+            <h4 data-aos="fade-up" style="color: white">WHO WE ARE?</h4>
+            <blockquote data-aos="fade-up" data-aos-delay="100">
+              <p class="">
+                O & G OVERSEAS TRADING is an ISO – 9001: 2015 certified company that is based in Mumbai Maharashtra, India, with over two
+                decades of experience. We are well versed in the supply of a wide range of high-standard products and equipment with
+                international approval and certifications.
+              </p>
+            </blockquote>
+            <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
+              <a href="#why-us" class="btn-get-started">Get Started</a>
+              <a href="https://youtu.be/Kqb8hKd96-M" class="glightbox btn-watch-video d-flex align-items-center"
+                ><i class="bi bi-play-circle"></i><span>Watch Video</span></a
+              >
+            </div>
           </div>
 
-        </div>
+          <div class="col-lg-6 col-md-6 col-xl-6 col-sm-12 mt-md-3 image_on_homen">
+            <!-- <img src="./assets/img/home/oilgas.jpg" alt="" width="100%"> -->
 
-        <div class="col-lg-6 col-md-6 col-xl-6 col-sm-12 image_on_homen">
-          <!-- <img src="./assets/img/home/oilgas.jpg" alt="" width="100%"> -->
-
-          <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="./assets/img/home/oilgas.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="./assets/img/home/powerandwater.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="./assets/img/home/31679.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="./assets/img/home/flange-scientific-physical-chemical-test.jpg" class="d-block w-100"
-                  alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="./assets/img/home/i7ers2ikm1i31.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="./assets/img/home/ship-building.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="./assets/img/home/making-blind-flange-300lm.png" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="./assets/img/home/Ocean-Rig-Crete-source-Samsung.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="./assets/img/home/maine.jpg" class="d-block w-100" alt="...">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./assets/img/home/oilgas.jpg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/img/home/powerandwater.jpg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/img/home/31679.jpg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/img/home/flange-scientific-physical-chemical-test.jpg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/img/home/i7ers2ikm1i31.jpg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/img/home/ship-building.jpg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/img/home/making-blind-flange-300lm.png" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/img/home/Ocean-Rig-Crete-source-Samsung.jpg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/img/home/maine.jpg" class="d-block w-100" alt="..." />
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section><!-- End Hero Section -->
+    </section>
+    <!-- End Hero Section -->
 
-  <main id="main">
+    <main id="main">
+      <!-- ======= Why Choose Us Section ======= -->
+      <section id="why-us" class="why-us">
+        <div class="container" data-aos="fade-up">
+          <div class="section-header">
+            <h2>Why Choose Us</h2>
+          </div>
 
-    <!-- ======= Why Choose Us Section ======= -->
-    <section id="why-us" class="why-us">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-header">
-          <h2>Why Choose Us</h2>
-        </div>
-
-        <div class="row g-0" data-aos="fade-up" data-aos-delay="200">
-
-          <div class="col-xl-5 img-bg" style="background-image: url('assets/img/why-us-bg.jpg')"></div>
-          <div class="col-xl-7 slides  position-relative">
-
-            <div class="slides-1 swiper">
-              <div class="swiper-wrapper">
-
-                <div class="swiper-slide">
-                  <div class="item">
-                    <!-- <h3 class="mb-3">Let's grow your business together</h3>
+          <div class="row g-0" data-aos="fade-up" data-aos-delay="200">
+            <div class="col-xl-5 img-bg" style="background-image: url('assets/img/why-us-bg.jpg')"></div>
+            <div class="col-xl-7 slides position-relative">
+              <div class="slides-1 swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="item">
+                      <!-- <h3 class="mb-3">Let's grow your business together</h3>
                     <h4 class="mb-3">Optio reiciendis accusantium iusto architecto at quia minima maiores quidem,
                       dolorum.</h4> -->
-                    <p>Diverse range of items from a single source of supply.</p>
+                      <p>Diverse range of items from a single source of supply.</p>
+                    </div>
                   </div>
-                </div><!-- End slide item -->
+                  <!-- End slide item -->
 
-                <div class="swiper-slide">
-                  <div class="item">
-                    <!-- <h3 class="mb-3">Unde perspiciatis ut repellat dolorem</h3>
+                  <div class="swiper-slide">
+                    <div class="item">
+                      <!-- <h3 class="mb-3">Unde perspiciatis ut repellat dolorem</h3>
                     <h4 class="mb-3">Amet cumque nam sed voluptas doloribus iusto. Dolorem eos aliquam quis.</h4> -->
-                    <p>Premium goods at affordable rates, supplied from globally recognized mills for quality.</p>
+                      <p>Premium goods at affordable rates, supplied from globally recognized mills for quality.</p>
+                    </div>
                   </div>
-                </div><!-- End slide item -->
+                  <!-- End slide item -->
 
-                <div class="swiper-slide">
-                  <div class="item">
-                    <!-- <h3 class="mb-3">Aliquid non alias minus</h3>
+                  <div class="swiper-slide">
+                    <div class="item">
+                      <!-- <h3 class="mb-3">Aliquid non alias minus</h3>
                     <h4 class="mb-3">Necessitatibus voluptatibus explicabo dolores a vitae voluptatum.</h4> -->
-                    <p>Ensure adherence to the JIT clause: Just-in-Time delivery of items.</p>
+                      <p>Ensure adherence to the JIT clause: Just-in-Time delivery of items.</p>
+                    </div>
                   </div>
-                </div><!-- End slide item -->
+                  <!-- End slide item -->
 
-                <div class="swiper-slide">
-                  <div class="item">
-                    <!-- <h3 class="mb-3">Necessitatibus suscipit non voluptatem quibusdam</h3>
+                  <div class="swiper-slide">
+                    <div class="item">
+                      <!-- <h3 class="mb-3">Necessitatibus suscipit non voluptatem quibusdam</h3>
                     <h4 class="mb-3">Tempora quos est ut quia adipisci ut voluptas. Deleniti laborum soluta nihil est.
                       Eum similique neque autem ut.</h4> -->
-                    <p>Deliveries to your door employing our own transport fleet.</p>
+                      <p>Deliveries to your door employing our own transport fleet.</p>
+                    </div>
                   </div>
-                </div><!-- End slide item -->
-                <div class="swiper-slide">
-                  <div class="item">
-                    <!-- <h3 class="mb-3">Necessitatibus suscipit non voluptatem quibusdam</h3>
+                  <!-- End slide item -->
+                  <div class="swiper-slide">
+                    <div class="item">
+                      <!-- <h3 class="mb-3">Necessitatibus suscipit non voluptatem quibusdam</h3>
                     <h4 class="mb-3">Tempora quos est ut quia adipisci ut voluptas. Deleniti laborum soluta nihil est.
                       Eum similique neque autem ut.</h4> -->
-                    <p> Ability to deliver at short notice, helping you reduce downtime and save costs.</p>
+                      <p>Ability to deliver at short notice, helping you reduce downtime and save costs.</p>
+                    </div>
                   </div>
-                </div><!-- End slide item -->
-                <div class="swiper-slide">
-                  <div class="item">
-                    <!-- <h3 class="mb-3">Necessitatibus suscipit non voluptatem quibusdam</h3>
+                  <!-- End slide item -->
+                  <div class="swiper-slide">
+                    <div class="item">
+                      <!-- <h3 class="mb-3">Necessitatibus suscipit non voluptatem quibusdam</h3>
                     <h4 class="mb-3">Tempora quos est ut quia adipisci ut voluptas. Deleniti laborum soluta nihil est.
                       Eum similique neque autem ut.</h4> -->
-                    <p>We kindly ask for the chance to serve you.</p>
+                      <p>We kindly ask for the chance to serve you.</p>
+                    </div>
                   </div>
-                </div><!-- End slide item -->
-
+                  <!-- End slide item -->
+                </div>
+                <div class="swiper-pagination"></div>
               </div>
-              <div class="swiper-pagination"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
             </div>
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Why Choose Us Section -->
-
-
-    <section id="portfolio" class="portfolio">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-header">
-          <h2>Our Products</h2>
-        </div>
-
-
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-img"><img src="assets/img/portfolio/steel.jpg" class="img-fluid" alt="">
-
-            </div>
-
-            <h4 class="mx-5">Steel Pipes</h4>
-
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-img"><img src="assets/img/portfolio/butt_weld_fitting.jpg" class="img-fluid" alt="">
-            </div>
-            <h4 class="text-center">Butt Weld Fittings</h4>
-          </div>
-
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-img"><img src="assets/img/portfolio/flangee.png" class="img-fluid" alt=""></div>
-            <h4 class="text-center">Flanges</h4>
-          </div>
-
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-img"><img src="assets/img/portfolio/valvess.jpg" class="img-fluid" alt="">
-            </div>
-            <h4 class="text-center">Valves</h4>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-img"><img src="assets/img/portfolio/boltsandnuts.png" class="img-fluid" alt="">
-            </div>
-            <h4 class="text-center">Stud Bolts & Nuts</h4>
-          </div>
-
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-img"><img src="assets/img/portfolio/backing_ring.jpg" class="img-fluid" alt=""></div>
-            <h4 class="text-center">Backing Rings</h4>
           </div>
         </div>
-      </div>
-    </section>
-    <!-- ======= Our Services Section ======= -->
-    <section id="services-list" class="services-list own-class">
-      <div class="container" data-aos="fade-up">
-        <div class="section-header">
-          <h2>Our Services Include</h2>
-        </div>
-        <div class="row gy-5">
-          <div class="col-lg-6 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
-            <div class="icon flex-shrink-0"><i class="bi bi-briefcase" style="color: #f57813;"></i></div>
-            <div>
-              <h4 class="title"><a href="#" class="stretched-link">Quick Response</a></h4>
-              <p class="description">A rapidly growing database and a global supplier network ensure
-                quick selection of the right product for our client's needs. Our
-                sales team works in tandem with our highly skilled after-sales
-                support staff to meet both the immediate and long-term needs of
-                our clients.</p>
-            </div>
+      </section>
+      <!-- End Why Choose Us Section -->
+
+      <section id="portfolio" class="portfolio">
+        <div class="container" data-aos="fade-up">
+          <div class="section-header">
+            <h2>Our Products</h2>
           </div>
 
+          <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-img"><img src="assets/img/portfolio/steel.jpg" class="img-fluid" alt="" /></div>
 
-          <div class="col-lg-6 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="300">
-            <div class="icon flex-shrink-0"><i class="bi bi-bar-chart" style="color: #d90769;"></i></div>
-            <div>
-              <h4 class="title"><a href="#" class="stretched-link">Extensive range</a></h4>
-              <p class="description">Any specs or range, we are able to evaluate, suggest, and provide the
-                proper products to satisfy our clients' needs through our globally
-                recognized manufacturers.</p>
+              <h4 class="mx-5">Steel Pipes</h4>
             </div>
-          </div><!-- End Service Item -->
 
-          <div class="col-lg-6 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="400">
-            <div class="icon flex-shrink-0"><i class="bi bi-binoculars" style="color: #15bfbc;"></i></div>
-            <div>
-              <h4 class="title"><a href="#" class="stretched-link">Reasonable price</a></h4>
-              <p class="description">We are able to achieve an affordable price that is consistent with the
-                specification and delivery of requirements because we are engaged in
-                considerable levels of commerce.</p>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-img"><img src="assets/img/portfolio/butt_weld_fitting.jpg" class="img-fluid" alt="" /></div>
+              <h4 class="text-center">Butt Weld Fittings</h4>
             </div>
-          </div><!-- End Service Item -->
 
-          <div class="col-lg-6 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="500">
-            <div class="icon flex-shrink-0"><i class="bi bi-brightness-high" style="color: #f5cf13;"></i></div>
-            <div>
-              <h4 class="title"><a href="#" class="stretched-link">Shipping</a></h4>
-              <p class="description">We assemble, pack, and send products all over the world. Shipments are
-                made often to GCC nations and Asian nations.</p>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-img"><img src="assets/img/portfolio/flangee.png" class="img-fluid" alt="" /></div>
+              <h4 class="text-center">Flanges</h4>
             </div>
-          </div><!-- End Service Item -->
 
-        </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-img"><img src="assets/img/portfolio/valvess.jpg" class="img-fluid" alt="" /></div>
+              <h4 class="text-center">Valves</h4>
+            </div>
 
-      </div>
-      </div>
-    </section>
-    <!-- End Our Services Section -->
-    <!-- ======= Call To Action Section ======= -->
-    <section id="call-to-action" class="call-to-action">
-      <div class="container" data-aos="fade-up">
-        <div class="row justify-content-center">
-          <div class="col-lg-6 text-center">
-            <h3>Contact us directly through whats'app</h3>
-            <p>Give us a call or drop by anytime, we endeavour to answer all enquiries
-              within 24 hours on business days. We will be happy to answer your questions.</p>
-            <a href="https://api.whatsapp.com/send?phone=7068147656"><i class="fa fa-whatsapp"
-                style="font-size:48px;color:rgb(10, 255, 10)"></i></i>
-            </a>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-img"><img src="assets/img/portfolio/boltsandnuts.png" class="img-fluid" alt="" /></div>
+              <h4 class="text-center">Stud Bolts & Nuts</h4>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-img"><img src="assets/img/portfolio/backing_ring.jpg" class="img-fluid" alt="" /></div>
+              <h4 class="text-center">Backing Rings</h4>
+            </div>
           </div>
         </div>
+      </section>
+      <!-- ======= Our Services Section ======= -->
+      <section id="services-list" class="services-list own-class">
+        <div class="container" data-aos="fade-up">
+          <div class="section-header">
+            <h2>Our Services Include</h2>
+          </div>
+          <div class="row gy-5">
+            <div class="col-lg-6 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+              <div class="icon flex-shrink-0"><i class="bi bi-briefcase" style="color: #f57813"></i></div>
+              <div>
+                <h4 class="title"><a href="#" class="stretched-link">Quick Response</a></h4>
+                <p class="description">
+                  A rapidly growing database and a global supplier network ensure quick selection of the right product for our client's
+                  needs. Our sales team works in tandem with our highly skilled after-sales support staff to meet both the immediate and
+                  long-term needs of our clients.
+                </p>
+              </div>
+            </div>
 
-      </div>
-    </section><!-- End Call To Action Section -->
+            <div class="col-lg-6 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="300">
+              <div class="icon flex-shrink-0"><i class="bi bi-bar-chart" style="color: #d90769"></i></div>
+              <div>
+                <h4 class="title"><a href="#" class="stretched-link">Extensive range</a></h4>
+                <p class="description">
+                  Any specs or range, we are able to evaluate, suggest, and provide the proper products to satisfy our clients' needs
+                  through our globally recognized manufacturers.
+                </p>
+              </div>
+            </div>
+            <!-- End Service Item -->
 
+            <div class="col-lg-6 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="400">
+              <div class="icon flex-shrink-0"><i class="bi bi-binoculars" style="color: #15bfbc"></i></div>
+              <div>
+                <h4 class="title"><a href="#" class="stretched-link">Reasonable price</a></h4>
+                <p class="description">
+                  We are able to achieve an affordable price that is consistent with the specification and delivery of requirements because
+                  we are engaged in considerable levels of commerce.
+                </p>
+              </div>
+            </div>
+            <!-- End Service Item -->
 
-    <!-- End Features Section -->
+            <div class="col-lg-6 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="500">
+              <div class="icon flex-shrink-0"><i class="bi bi-brightness-high" style="color: #f5cf13"></i></div>
+              <div>
+                <h4 class="title"><a href="#" class="stretched-link">Shipping</a></h4>
+                <p class="description">
+                  We assemble, pack, and send products all over the world. Shipments are made often to GCC nations and Asian nations.
+                </p>
+              </div>
+            </div>
+            <!-- End Service Item -->
+          </div>
 
-    <!-- ======= Recent Blog Posts Section ======= -->
-    <!-- <section id="recent-posts" class="recent-posts">
+          <!-- </div> -->
+        </div>
+      </section>
+      <!-- End Our Services Section -->
+      <!-- ======= Call To Action Section ======= -->
+      <section id="call-to-action" class="call-to-action">
+        <div class="container" data-aos="fade-up">
+          <div class="row justify-content-center">
+            <div class="col-lg-6 text-center">
+              <h3>Contact us directly through whats'app</h3>
+              <p>
+                Give us a call or drop by anytime, we endeavour to answer all enquiries within 24 hours on business days. We will be happy
+                to answer your questions.
+              </p>
+              <a href="https://api.whatsapp.com/send?phone=7068147656"
+                ><i class="fa fa-whatsapp" style="font-size: 48px; color: rgb(10, 255, 10)"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Call To Action Section -->
+
+      <!-- End Features Section -->
+
+      <!-- ======= Recent Blog Posts Section ======= -->
+      <!-- <section id="recent-posts" class="recent-posts">
       <div class="container" data-aos="fade-up">
 
         <div class="section-header">
@@ -468,91 +441,87 @@
 
       </div>
     </section> -->
-    <!-- End Recent Blog Posts Section -->
+      <!-- End Recent Blog Posts Section -->
+    </main>
+    <!-- End #main -->
 
-  </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <footer id="footer" class="footer">
-
-    <div class="footer-content">
-      <div class="container">
-        <div class="row gy-4">
-          <div class="col-lg-5 col-md-12 footer-info">
-            <a href="index.html" class="logo d-flex align-items-center">
-              <span>O & G OVERSEAS TRADING</span>
-            </a>
-            <p>Our unique supply strength has enabled us to become a trusted partner of the energy sector around the
-              world, who count on our unmatched expertise to deliver innovative and reliable solutions in challenging
-              conditions.</p>
-            <div class="social-links d-flex  mt-3">
-              <a href="https://twitter.com/OGOTtrade" class="twitter"><i class="bi bi-twitter"></i></a>
-              <a href="https://www.facebook.com/profile.php?id=100089303905004" class="facebook"><i
-                  class="bi bi-facebook"></i></a>
-              <a href="https://www.instagram.com/oandgoverseastrading/" class="instagram"><i
-                  class="bi bi-instagram"></i></a>
-              <a href="https://www.linkedin.com/in/oil-and-gas-overseas-trading-68a05b263?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B4k6hewYaRmCgb7Q0xaqY6g%3D%3D"
-                class="linkedin"><i class="bi bi-linkedin"></i></a>
+    <!-- ======= Footer ======= -->
+    <footer id="footer" class="footer">
+      <div class="footer-content">
+        <div class="container">
+          <div class="row gy-4">
+            <div class="col-lg-5 col-md-12 footer-info">
+              <a href="index.html" class="logo d-flex align-items-center">
+                <span>O & G OVERSEAS TRADING</span>
+              </a>
+              <p>
+                Our unique supply strength has enabled us to become a trusted partner of the energy sector around the world, who count on
+                our unmatched expertise to deliver innovative and reliable solutions in challenging conditions.
+              </p>
+              <div class="social-links d-flex mt-3">
+                <a href="https://twitter.com/OGOTtrade" class="twitter"><i class="bi bi-twitter"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100089303905004" class="facebook"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/oandgoverseastrading/" class="instagram"><i class="bi bi-instagram"></i></a>
+                <a
+                  href="https://www.linkedin.com/in/oil-and-gas-overseas-trading-68a05b263?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B4k6hewYaRmCgb7Q0xaqY6g%3D%3D"
+                  class="linkedin"
+                  ><i class="bi bi-linkedin"></i
+                ></a>
+              </div>
             </div>
-          </div>
 
-          <div class="col-lg-2 col-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="bi bi-dash"></i> <a href="#">Home</a></li>
-              <li><i class="bi bi-dash"></i> <a href="#">About us</a></li>
-              <li><i class="bi bi-dash"></i> <a href="#">Services</a></li>
-              <!-- <li><i class="bi bi-dash"></i> <a href="#">Terms of service</a></li>
+            <div class="col-lg-2 col-6 footer-links">
+              <h4>Useful Links</h4>
+              <ul>
+                <li><i class="bi bi-dash"></i> <a href="#">Home</a></li>
+                <li><i class="bi bi-dash"></i> <a href="#">About us</a></li>
+                <li><i class="bi bi-dash"></i> <a href="#">Services</a></li>
+                <!-- <li><i class="bi bi-dash"></i> <a href="#">Terms of service</a></li>
               <li><i class="bi bi-dash"></i> <a href="#">Privacy policy</a></li> -->
-            </ul>
-          </div>
+              </ul>
+            </div>
 
-          <div class="col-lg-2 col-6 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-              <li><i class="bi bi-dash"></i> <a href="#">Web Design</a></li>
-              <li><i class="bi bi-dash"></i> <a href="#">Web Development</a></li>
-              <li><i class="bi bi-dash"></i> <a href="#">Product Management</a></li>
-              <li><i class="bi bi-dash"></i> <a href="#">Marketing</a></li>
-              <li><i class="bi bi-dash"></i> <a href="#">Graphic Design</a></li>
-            </ul>
-          </div>
+            <div class="col-lg-2 col-6 footer-links">
+              <h4>Our Services</h4>
+              <ul>
+                <li><i class="bi bi-dash"></i> <a href="#">Web Design</a></li>
+                <li><i class="bi bi-dash"></i> <a href="#">Web Development</a></li>
+                <li><i class="bi bi-dash"></i> <a href="#">Product Management</a></li>
+                <li><i class="bi bi-dash"></i> <a href="#">Marketing</a></li>
+                <li><i class="bi bi-dash"></i> <a href="#">Graphic Design</a></li>
+              </ul>
+            </div>
 
-          <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
-            <h4>Contact Us</h4>
+            <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+              <h4>Contact Us</h4>
 
-
-            <p>
-              A/103 Jasmine tower <br>
-              near shilphata<br>
-              Thane Maharashtra India <br><br>
-              <strong>Phone:</strong>7068147656
-              <br>
-              <strong>Email:</strong> info@example.com<br>
-            </p>
+              <p>
+                A/103 Jasmine tower <br />
+                near shilphata<br />
+                Thane Maharashtra India <br /><br />
+                <strong>Phone:</strong>7068147656
+                <br />
+                <strong>Email:</strong> info@example.com<br />
+              </p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </footer>
+    </footer>
 
+    <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
+    <div id="preloader"></div>
 
-  <div id="preloader"></div>
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-</body>
-
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
