@@ -34,7 +34,7 @@
 body {
   font-family: var(--font-default);
   color: var(--color-default);
-  margin-top: 30px;
+  /* margin-top: 30px; */
 }
 
 a {
@@ -535,10 +535,11 @@ section {
     bottom: 0;
   }
 }
-
+/* line no 538 */
+/* rgba(27, 47, 69, 0.7) */
 @media (max-width: 1034px) {
   .hero:before {
-    background: rgba(27, 47, 69, 0.7);
+    background: #1b2f45;
   }
 }
 
