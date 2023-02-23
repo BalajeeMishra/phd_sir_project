@@ -11,7 +11,8 @@
 --------------------------------------------------------------*/
 /* Fonts */
 :root {
-  --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans",
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-primary: "Montserrat", sans-serif;
   --font-secondary: "Raleway", sans-serif;
 }
@@ -400,6 +401,26 @@ section {
 /*--------------------------------------------------------------
 # Mobile Navigation
 --------------------------------------------------------------*/
+@media (max-width: 550px) {
+  .header .logo h1 {
+    font-size: 18px !important;
+  }
+
+  .header .logo ~ p {
+    margin-left: 5em !important;
+  }
+
+  .contact-item {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 780px) {
+  .header .logo h1 {
+    font-size: 24px;
+  }
+}
+
 @media (max-width: 1279px) {
   .navbar {
     position: fixed;
@@ -610,6 +631,17 @@ section {
 
 .hero .btn-watch-video:hover i {
   color: #82cbed;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding-top: 80px;
+  }
+
+
+  .hero .image_on_homen {
+    margin-top: 3em;
+  }
 }
 
 @media (max-width: 640px) {
