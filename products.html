@@ -478,21 +478,26 @@
                 type="text/javascript"></script>
 
             <script defer>
-                $('#myList a').on('click', function (e) {
-                    e.preventDefault()
-                    $(this).tab('show')
-                })
-                $('#mynav li a').on('click', function (e) {
-                    e.preventDefault()
-                    const selectedItem = e.currentTarget.innerHTML;
-                    const selectElement = document.querySelectorAll(".list-group-item-action");
-                    selectElement.forEach((e) => {
-                        if (e.innerHTML == selectedItem) {
-                            $(e).tab('show')
 
-                        }
+                $(document).ready(function () {
+                    // Handler for .ready() called.
+                    $('#myList a').on('click', function (e) {
+                        e.preventDefault()
+                        $(this).tab('show')
+                    })
+                    $('#mynav li a').on('click', function (e) {
+                        e.preventDefault()
+                        const selectedItem = e.currentTarget.innerHTML;
+                        const selectElement = document.querySelectorAll(".list-group-item-action");
+                        selectElement.forEach((e) => {
+                            if (e.innerHTML == selectedItem) {
+                                $(e).tab('show')
+
+                            }
+                        });
                     });
                 });
+
 
                 // const selectedItem = "Steel Pipes";
                 // const selectElement = document.querySelectorAll(".list-group-item-action");
